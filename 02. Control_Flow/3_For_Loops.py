@@ -25,5 +25,32 @@ print(valid_passwords)
 
 
 
+""" Exercise 3: 
+Write a program that reads a sentence and determines:
+    - how many uppercase letters it contains
+    - how many digits it contains
+    - how many spaces it contains
+Hint: iterate through the text character by character.  """
+
+text = input("Sentence: ")
+
+uppercase_count = 0
+digit_count = 0
+space_count = 0
+
+for n in text:
+    if n != n.lower():
+        uppercase_count = uppercase_count + 1
+
+    if n.isdigit():
+        digit_count = digit_count + 1
+
+    if n == " ":
+        space_count = space_count + 1
+
+print("The text contains", uppercase_count, "uppercase letters.")
+print("The text contains", digit_count, "digits.")
+print("The text contains", space_count, "spaces.")
+
 
 
