@@ -83,5 +83,53 @@ while liters != 0 and tank != 0 and attempts < 4:
 
 
 
+""" Exercise 4: Create a program that manages a product list.
+Initial list: products = ["kiwi", "plant milk", "oats", "onion"]
+The user can enter:
+  - "add" → add a product
+  - "del" → delete a product
+  - "show" → display the list
+  - "exit" → stop the program
+The program should not crash if the product does not exist.  """
 
+products = ["kiwi", "plant milk", "oats", "onion"]
+
+text = ""
+
+while text != "exit":
+    text = input("""
+For adding a product type add
+For deleting a product type del
+For showing the list type show
+To exit type exit
+: """).lower()
+
+    if text == "exit":
+        print("You exited the program")
+        break
+
+    elif text == "add":
+        product = input("Enter a product: ")
+
+        while product in products:
+            print("Product already exists!")
+            product = input("Enter another product: ")
+
+        products.append(product)
+
+    elif text == "del":
+        product_to_delete = input("Enter a product to delete: ")
+
+        while product_to_delete not in products:
+            print("Product not found in list!")
+            product_to_delete = input("Enter a valid product: ")
+
+        products.remove(product_to_delete)
+
+    elif text == "show":
+        print(products)
+
+    else:
+        print("Invalid command!")
+      
 
