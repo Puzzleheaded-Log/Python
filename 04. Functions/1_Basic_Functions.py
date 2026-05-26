@@ -64,3 +64,30 @@ def sum_until_stop():
     return sum(numbers)
 
 print(sum_until_stop())
+
+
+
+""" Exercise 4: 
+Write a function called max_student() that:
+  - receives a dictionary containing student names and grades
+  - finds the student with the highest grade
+  - displays the student's name and grade.   """
+
+grades = {
+    "Ana": 9,
+    "Ion": 7,
+    "Maria": 10
+}
+
+def max_student(grades_dictionary):
+    highest_grade = 0
+    student = ""
+
+    for name, grade in grades_dictionary.items():
+        if grade > highest_grade:
+            highest_grade = grade
+            student = name
+
+    print(f"{student}: {highest_grade}")
+
+max_student(grades)
