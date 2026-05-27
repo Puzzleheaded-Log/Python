@@ -1,10 +1,10 @@
-Python Learning Repository
+Python Practice & Development Portfolio
 
-This repository showcases a structured learning path for Python programming, covering topics from basic syntax to more advanced concepts such as object-oriented programming, APIs, testing, and data visualization.
+This repository is a collection of Python projects and exercises developed as part of a continuous learning process. It covers a wide range of topics, starting from fundamental programming concepts and progressing toward more advanced areas such as object-oriented design, external API integration, testing strategies, and data visualization techniques.
 
-The project is organized into clearly separated modules, each focusing on a specific area of Python development. Every section includes practical exercises and small projects designed to reinforce understanding through hands-on practice and problem-solving.
+Rather than focusing on isolated examples, the material is organized in a structured way that reflects a gradual improvement in programming skills, problem-solving ability, and code organization.
 
-This repository represents a progressive approach to learning Python, moving from beginner-level concepts to more applied programming topics.
-The exercises included are a representative subset of a larger collection of practice work, used to build and strengthen programming skills over time.
+This repository does not include every single exercise completed during the learning process. Instead, it contains a curated selection of representative tasks that reflect key milestones and concepts covered along the way.
+Many additional practice exercises and experiments were performed outside of this structure to reinforce understanding and improve coding fluency.
 
-The goal of this repository is to develop a strong foundation in Python programming and the ability to write clean, structured, and practical code applicable to real-world scenarios.
+Through this repository I managed to document the evolution of my Python programming skills through consistent practice, gradually building the ability to write clean, maintainable, and practical code applicable to real-world scenarios.
