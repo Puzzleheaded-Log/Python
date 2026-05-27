@@ -1,4 +1,4 @@
-Python Practice & Development Portfolio
+Python Learning Repository
 
 This repository is a collection of Python projects and exercises developed as part of a continuous learning process. It covers a wide range of topics, starting from fundamental programming concepts and progressing toward more advanced areas such as object-oriented design, external API integration, testing strategies, and data visualization techniques.
 
